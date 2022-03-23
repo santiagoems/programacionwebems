@@ -1,5 +1,7 @@
-h1{color:black;}
+h1{color:black; font-size: 35px; text-align: center;}
 /*esto es un comentario*/
 summary{color:black;}
 body{background-color: grey;}
 li{color:black;}
+details{font-size: 20px;}
+summary{color:black; font-size: 20px;}
