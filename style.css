@@ -37,14 +37,6 @@ summary{
     bottom: 5px;
     right: 5px;
 }
-#col-izq{
-    float: left;
-    width: 50%;
-}
-#col-der{
-    float: right;
-    width: 50%;
-}
 header{
     position:sticky;
     top: 0px;
@@ -52,4 +44,8 @@ header{
 }
 menu > li{
     color: white;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
 }
