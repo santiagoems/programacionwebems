@@ -1,7 +1,55 @@
 /*esto es un comentario*/
-summary{color:black;}
-body{background-color: #565656;}
-li{color:black;}
-details{font-size: 20px;}
-summary{color:black; font-size: 20px;}
-#titulo-web{font-size: 35px; text-align: center; color: black;}
+summary{
+    color:black;
+}
+body{
+    background-color: #565656;
+}
+li{
+    color:black;
+}
+details{
+    font-size: 20px;
+}
+summary{
+    color:black;
+     font-size: 20px;
+    }
+#titulo-web{
+    font-size: 35px;
+     text-align: center;
+      color: black;
+    }
+#links-utiles{
+    width: 300px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+#links-clases{
+    width: 300px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+#logo-whatsapp{
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+}
+#col-izq{
+    float: left;
+    width: 50%;
+}
+#col-der{
+    float: right;
+    width: 50%;
+}
+header{
+    position:sticky;
+    top: 0px;
+    background-color: black;
+}
+menu > li{
+    color: white;
+}
