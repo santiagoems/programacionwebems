@@ -40,12 +40,13 @@ summary{
 header{
     position:sticky;
     top: 0px;
-    background-color: black;
-}
-menu > li{
-    color: white;
 }
 footer{
     position: fixed;
     bottom: 0px;
+}
+.col{
+    border: dotted;
+    border-color: black;
+    margin: 2px;
 }
