@@ -1,52 +1,65 @@
 /*esto es un comentario*/
 summary{
-    color:black;
+    color:rgb(183, 179, 179);
 }
 body{
-    background-color: #565656;
+    background-color: black;
+    color: rgb(183, 179, 179)
 }
 li{
-    color:black;
+    color:rgb(183, 179, 179);
 }
 details{
     font-size: 20px;
 }
 summary{
-    color:black;
+    color:rgb(183, 179, 179);
      font-size: 20px;
-    }
-#titulo-web{
-    font-size: 35px;
-     text-align: center;
-      color: black;
     }
 #links-utiles{
     width: 300px;
-    border: 5px solid black;
+    border: 5px solid grey;
     padding: 10px;
     margin: 20px;
 }
 #links-clases{
     width: 300px;
-    border: 5px solid black;
+    border: 5px solid grey;
     padding: 10px;
     margin: 20px;
 }
-#logo-whatsapp{
+#logo-boca{
     position:fixed;
     bottom: 5px;
     right: 5px;
 }
 header{
-    position:sticky;
+    position: sticky;
     top: 0px;
 }
 footer{
     position: fixed;
-    bottom: 0px;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    font-size: x-small;
 }
 .col{
     border: dotted;
-    border-color: black;
+    border-color: grey;
     margin: 2px;
+}
+body > h1{
+    position: sticky;
+    top: 5px;
+    font-size: 35px;
+    text-align: center;
+    color: red
+}
+body > h2{
+    position: sticky;
+    top: 45px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
 }
