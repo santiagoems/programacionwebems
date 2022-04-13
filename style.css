@@ -3,7 +3,7 @@ summary{
     color:rgb(183, 179, 179);
 }
 body{
-    background-color: black;
+    background-color: rgb(228, 231, 195);
     color: rgb(183, 179, 179)
 }
 li{
@@ -14,7 +14,7 @@ details{
 }
 summary{
     color:rgb(183, 179, 179);
-     font-size: 20px;
+    font-size: 20px;
     }
 #links-utiles{
     width: 300px;
@@ -28,38 +28,16 @@ summary{
     padding: 10px;
     margin: 20px;
 }
-#logo-boca{
+#carrito{
     position:fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 25px;
+    right: 10px;
+    color: rgb(60, 60, 60);
 }
 header{
     position: sticky;
     top: 0px;
 }
-footer{
-    position: fixed;
-    bottom: 5px;
-    left: 5px;
-    color: white;
-    font-size: x-small;
-}
 .col{
-    border: dotted;
-    border-color: grey;
     margin: 2px;
-}
-body > h1{
-    position: sticky;
-    top: 5px;
-    font-size: 35px;
-    text-align: center;
-    color: red
-}
-body > h2{
-    position: sticky;
-    top: 45px;
-    font-size: 20px;
-    text-align: center;
-    color: red;
 }
