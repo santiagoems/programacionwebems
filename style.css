@@ -28,10 +28,11 @@ summary{
     padding: 10px;
     margin: 20px;
 }
-#carrito{
+#logo-boca{
     position:fixed;
     bottom: 25px;
     right: 10px;
+    width: 3%;
     color: rgb(60, 60, 60);
 }
 header{
@@ -40,4 +41,7 @@ header{
 }
 .col{
     margin: 2px;
+}
+#logo-river{
+    width: 10%;
 }
