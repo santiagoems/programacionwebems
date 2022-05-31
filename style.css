@@ -3,30 +3,11 @@ summary{
     color:rgb(183, 179, 179);
 }
 body{
-    background-color: rgb(228, 231, 195);
+    background-color: rgb(216, 51, 0);
     color: rgb(183, 179, 179)
 }
 li{
     color:rgb(183, 179, 179);
-}
-details{
-    font-size: 20px;
-}
-summary{
-    color:rgb(183, 179, 179);
-    font-size: 20px;
-    }
-#links-utiles{
-    width: 300px;
-    border: 5px solid grey;
-    padding: 10px;
-    margin: 20px;
-}
-#links-clases{
-    width: 300px;
-    border: 5px solid grey;
-    padding: 10px;
-    margin: 20px;
 }
 #logo-boca{
     position:fixed;
@@ -43,5 +24,11 @@ header{
     margin: 2px;
 }
 #logo-river{
-    width: 10%;
+    width: 30px;
+}
+#foto-ppal{
+    margin-bottom: 10px;
+}
+.sponsors > h4{
+    color: rgb(183, 179, 179);
 }
