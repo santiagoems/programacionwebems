@@ -1,9 +1,11 @@
-/*esto es un comentario*/
+html {
+    scroll-padding-top: 70px;
+  }
 summary{
     color:rgb(183, 179, 179);
 }
 body{
-    background-color: rgb(216, 51, 0);
+    background-color: black;
     color: rgb(183, 179, 179)
 }
 li{
