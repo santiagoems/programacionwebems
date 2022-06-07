@@ -1,6 +1,9 @@
 html {
     scroll-padding-top: 70px;
   }
+  header{
+      z-index: 1;
+  }
 summary{
     color:rgb(183, 179, 179);
 }

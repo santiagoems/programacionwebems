@@ -53,41 +53,7 @@ function calculaentradas(){
                                                                                                           verhorarios(cantidad,0);
   
 }
-function verhorarios(cantidad,s){
-  $.ajax({
-      url: "verhorarios?q=" + cantidad + "&s=" + s,
-      type: "POST",
-      success: function(data, status, xhr) {
-          $('#selhorarios').html(data);
-      }
-  });
-}
 
-function validatee(evt) {
-  var theEvent = evt || window.event;
-  var dni = document.getElementById('dni').value;
-
-  // Handle paste
-  if (theEvent.type === 'paste') {
-      key = event.clipboardData.getData('text/plain');
-  } else {
-      // Handle key press
-      var key = theEvent.keyCode || theEvent.which;
-      key = String.fromCharCode(key);
-  }
-  var regex = /[0-9]|\./;
-  if( !regex.test(key) ) {
-      theEvent.returnValue = false;
-      if(theEvent.preventDefault) theEvent.preventDefault();
-  }
-  if( !regex.test(dni) ) {
-      document.getElementById('dni').value = '';
-  }
-  if(isNaN(dni)){
-      document.getElementById('dni').value = '';
-  }
-
-}
 
 var i;
               function contadormas(iddeinput){ 
@@ -110,12 +76,5 @@ var i;
                       cant.value="0";
                   }
               }
-                function selector(){
-                // Selector de radios
-                $(".btn-group.doble label").click(function(){
-                  $('.btn-group.doble label').removeClass( "active" );
-                  $(this).addClass( "active" );
-                });
-        
-              };
+
             window.onload = selector;
