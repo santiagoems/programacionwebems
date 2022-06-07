@@ -50,10 +50,8 @@ function calculaentradas(){
       cantidad = parseInt(cantidad) + parseInt(document.getElementById('cantidad90').value);
   }
                                                       document.getElementById('totalgeneral').innerHTML = "$ " + importe;
-                                                                                                          verhorarios(cantidad,0);
-  
+                                                      document.getElementById('importeTotal').innerHTML = " $ " + importe;
 }
-
 
 var i;
               function contadormas(iddeinput){ 
@@ -76,5 +74,16 @@ var i;
                       cant.value="0";
                   }
               }
+
+function mensajepago(){
+    if(document.forms["form"].username.value == "" || document.forms["form"].cardNumber.value == "" || document.forms["form"].month.value == "" || document.forms["form"].year.value == "" || document.forms["form"].cvv.value == ""){
+        alert("ERROR")
+    }else{
+        alert("Su pago fue realizado")
+    }
+}
+function mensajecontacto(){
+    alert("Su mensaje fue recibido")
+}
 
             window.onload = selector;

@@ -208,7 +208,10 @@
               <!-- credit card info-->
               <div id="nav-tab-card" class="tab-pane fade show active">
                 <p class="alert alert-warning">Ingrese los datos de su tarjeta de crédito</p>
-                <form role="form">
+                <form role="form" name="form">
+                  <div class="form-group">
+                    <b><label style="color: black;">IMPORTE A PAGAR: </label><span id='importeTotal' style="color: black;"> $ 0</span></b>
+                  </div>
                   <div class="form-group">
                     <label for="username">Nombre completo</label>
                     <input type="text" name="username" placeholder="Tal cual figura en la tarjeta" required class="form-control">
@@ -231,8 +234,8 @@
                       <div class="form-group">
                         <label for="expirationDate">Vencimiento</label>
                         <div class="input-group">
-                          <input type="number" placeholder="MM" name="" class="form-control" required>
-                          <input type="number" placeholder="AA" name="" class="form-control" required>
+                          <input type="number" placeholder="MM" name="month" class="form-control" required>
+                          <input type="number" placeholder="AA" name="year" class="form-control" required>
                         </div>
                       </div>
                     </div>
@@ -241,14 +244,14 @@
                         <label data-toggle="tooltip" title="Código de tres digitos en la parte trasera de la tarjeta">CVV
                                                     <i class="fa fa-question-circle"></i>
                                                 </label>
-                        <input type="text" placeholder="XXX" required class="form-control">
+                        <input type="text" name="cvv" placeholder="XXX" required class="form-control">
                       </div>
                     </div>
     
     
     
                   </div>
-                  <button type="button" class="subscribe btn btn-danger btn-block rounded-pill shadow-sm"> Confirmar  </button>
+                  <button type="button" class="subscribe btn btn-danger btn-block rounded-pill shadow-sm" onclick="javascript: mensajepago()"> Confirmar  </button>
                 </form>
               </div>
               <!-- End -->
