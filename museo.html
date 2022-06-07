@@ -22,10 +22,10 @@
                 <a class="nav-link" href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./index.html/#estadio">Estadio</a>
+                <a class="nav-link" href="./index.html#estadio">Estadio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./index.html/#entradas">Entradas</a>
+                <a class="nav-link" href="./index.html#entradas">Entradas</a>
               </li>
               <li class="nav-item">
                 <a class="navbar-brand" aria-current="page" href="./museo.html">Museo</a>
@@ -55,122 +55,124 @@
 
     <link rel="stylesheet" href="./style.css">
     <div class="container">
-      <h3>Tabla de precios</h3>
-      <img src="./Logos/foto-preciosmuseo.png" id="precios-museo">
+      <h3 style="margin-top: 10px;">Tabla de precios</h3>
+      <img src="./Logos/foto-preciosmuseo.png" id="precios-museo" style="margin-bottom: 25px;">
     </div>
-
-    <h5 class="text-normal">
-      <strong class="text-uppercase">SELECCION&Aacute; EL paquete, TIPO DE ENTRADA Y CANTIDAD QUE DESE&Aacute;S</strong> <br>
-      </h5>
-      <form name="cart_quantity" method="post" id="form1c" autocomplete="off">
-      <div class="table-responsive">
-      <table class="table t-entradas text-uppercase">
-       <thead>
-      <tr>
-      <th class="museotd1"><h5><strong>VISITA AL MUSEO + ESTADIO TOUR</strong></h5></th>
-      <th><h5 style="color: white;"><strong>VALOR</strong></h5></th>
-      <th><h5 style="color: white; margin-left: 70px;"><strong>CANTIDAD</strong></h5></th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR MAYOR (ARGENTINO Y/O RESIDENTE)</td><td style="color: white;">$ 950</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad163');calculaentradas();">+</button>
-      <input id="cantidad163" name="cantidad163" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad163');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR SOCIO/JUBILADO/MENOR</td><td style="color: white;">$ 550</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad87');calculaentradas();">+</button>
-      <input id="cantidad87" name="cantidad87" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad87');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR (GENERAL NO RESIDENTE)</td><td style="color: white;">$ 1300</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad83');calculaentradas();">+</button>
-      <input id="cantidad83" name="cantidad83" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad83');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR (MENOR NO RESIDENTE)</td><td style="color: white;">$ 800</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad172');calculaentradas();">+</button>
-      <input id="cantidad172" name="cantidad172" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad172');calculaentradas();">-</button>
-      </td>
-      </tr>
-       </tbody> <thead>
-      <tr>
-      <th colspan="3"><h5 class="padd-t-26" style="color: white;"><strong>VISITA AL MUSEO</strong></h5></th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr><td class="museotd1">VISITA AL MUSEO MAYOR (ARGENTINO Y/O RESIDENTE)</td><td style="color: white;">$ 550</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad162');calculaentradas();">+</button>
-      <input id="cantidad162" name="cantidad162" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad162');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO SOCIO/JUBILADO/MENOR</td><td style="color: white;">$ 400</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad86');calculaentradas();">+</button>
-      <input id="cantidad86" name="cantidad86" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad86');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO (GENERAL NO RESIDENTE)</td><td style="color: white;">$ 800</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad82');calculaentradas();">+</button>
-      <input id="cantidad82" name="cantidad82" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad82');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">VISITA AL MUSEO (MENOR NO RESIDENTE)</td><td style="color: white;">$ 650</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad171');calculaentradas();">+</button>
-      <input id="cantidad171" name="cantidad171" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad171');calculaentradas();">-</button>
-      </td>
-      </tr>
-      </tbody> <thead>
-      <tr>
-       <th colspan="3"><h5 class="padd-t-26" style="color: white;"><strong>PAQUETES ARGENTINOS O RESIDENTES</strong></h5></th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr><td class="museotd1">GRUPO FAMILIAR X4 VISITA AL MUSEO + ESTADIO TOUR<span class="pax">(2 mayores y 2 menores de 5 a 12 años)</span></td><td style="color: white;">$ 2700</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad89');calculaentradas();">+</button>
-      <input id="cantidad89" name="cantidad89" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad89');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">GRUPO FAMILIAR X6 VISITA AL MUSEO + ESTADIO TOUR<span class="pax">(2 mayores y 4 menores de 5 a 12 años)</span></td><td style="color: white;">$ 3200</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad91');calculaentradas();">+</button>
-      <input id="cantidad91" name="cantidad91" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad91');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">GRUPO FAMILIAR X4 VISITA AL MUSEO<span class="pax">(2 mayores y 2 menores de 5 a 12 años)</span></td><td style="color: white;">$ 1700</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad88');calculaentradas();">+</button>
-      <input id="cantidad88" name="cantidad88" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad88');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tr><td class="museotd1">GRUPO FAMILIAR X6 VISITA AL MUSEO<span class="pax">(2 mayores y 4 menores de 5 a 12 años)</span></td><td style="color: white;">$ 2100</td><td>
-      <button class="btn-mas" type="button" onclick="javascript: contadormas('cantidad90');calculaentradas();">+</button>
-      <input id="cantidad90" name="cantidad90" type="text" value="0">
-      <button class="btn-menos" type="button" onclick="javascript: contadormenos('cantidad90');calculaentradas();">-</button>
-      </td>
-      </tr>
-      <tfoot>
-      <tr>
-      <td colspan="2">
-      </td>
-      <td class="text-left">
-      <br>
-      <h6 style="color: red;"><b>TOTAL: <span id='totalgeneral'>$ 0</span></b></h6>
-      </td>
-      </tr>
-      </tfoot>
-      </table>
-      </div>
-      
-      </form>
+    <div class="container">
+      <h5 class="text-normal">
+        <strong class="text-uppercase">SELECCION&Aacute; EL paquete, TIPO DE ENTRADA Y CANTIDAD QUE DESE&Aacute;S</strong> <br>
+        </h5>
+        <form name="cart_quantity" method="post" id="form1c" autocomplete="off">
+        <div class="table-responsive">
+        <table class="table t-entradas text-uppercase">
+         <thead>
+        <tr>
+        <th class="museotd1"><h5><strong>VISITA AL MUSEO + ESTADIO TOUR</strong></h5></th>
+        <th><h5 style="color: white;"><strong>VALOR</strong></h5></th>
+        <th><h5 style="color: white; margin-left: 70px;"><strong>CANTIDAD</strong></h5></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR MAYOR (ARGENTINO Y/O RESIDENTE)</td><td style="color: white;">$ 950</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad163');calculaentradas();">+</button>
+        <input id="cantidad163" name="cantidad163" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad163');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR SOCIO/JUBILADO/MENOR</td><td style="color: white;">$ 550</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad87');calculaentradas();">+</button>
+        <input id="cantidad87" name="cantidad87" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad87');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR (GENERAL NO RESIDENTE)</td><td style="color: white;">$ 1300</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad83');calculaentradas();">+</button>
+        <input id="cantidad83" name="cantidad83" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad83');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO + ESTADIO TOUR (MENOR NO RESIDENTE)</td><td style="color: white;">$ 800</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad172');calculaentradas();">+</button>
+        <input id="cantidad172" name="cantidad172" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad172');calculaentradas();">-</button>
+        </td>
+        </tr>
+         </tbody> <thead>
+        <tr>
+        <th colspan="3"><h5 class="padd-t-26" style="color: white;"><strong>VISITA AL MUSEO</strong></h5></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="museotd1">VISITA AL MUSEO MAYOR (ARGENTINO Y/O RESIDENTE)</td><td style="color: white;">$ 550</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad162');calculaentradas();">+</button>
+        <input id="cantidad162" name="cantidad162" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad162');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO SOCIO/JUBILADO/MENOR</td><td style="color: white;">$ 400</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad86');calculaentradas();">+</button>
+        <input id="cantidad86" name="cantidad86" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad86');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO (GENERAL NO RESIDENTE)</td><td style="color: white;">$ 800</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad82');calculaentradas();">+</button>
+        <input id="cantidad82" name="cantidad82" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad82');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">VISITA AL MUSEO (MENOR NO RESIDENTE)</td><td style="color: white;">$ 650</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad171');calculaentradas();">+</button>
+        <input id="cantidad171" name="cantidad171" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad171');calculaentradas();">-</button>
+        </td>
+        </tr>
+        </tbody> <thead>
+        <tr>
+         <th colspan="3"><h5 class="padd-t-26" style="color: white;"><strong>PAQUETES ARGENTINOS O RESIDENTES</strong></h5></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="museotd1">GRUPO FAMILIAR X4 VISITA AL MUSEO + ESTADIO TOUR<span class="pax">(2 mayores y 2 menores de 5 a 12 años)</span></td><td style="color: white;">$ 2700</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad89');calculaentradas();">+</button>
+        <input id="cantidad89" name="cantidad89" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad89');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">GRUPO FAMILIAR X6 VISITA AL MUSEO + ESTADIO TOUR<span class="pax">(2 mayores y 4 menores de 5 a 12 años)</span></td><td style="color: white;">$ 3200</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad91');calculaentradas();">+</button>
+        <input id="cantidad91" name="cantidad91" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad91');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">GRUPO FAMILIAR X4 VISITA AL MUSEO<span class="pax">(2 mayores y 2 menores de 5 a 12 años)</span></td><td style="color: white;">$ 1700</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad88');calculaentradas();">+</button>
+        <input id="cantidad88" name="cantidad88" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad88');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tr><td class="museotd1">GRUPO FAMILIAR X6 VISITA AL MUSEO<span class="pax">(2 mayores y 4 menores de 5 a 12 años)</span></td><td style="color: white;">$ 2100</td><td>
+        <button class="btn-mas" style="background-color: red;" type="button" onclick="javascript: contadormas('cantidad90');calculaentradas();">+</button>
+        <input id="cantidad90" name="cantidad90" type="text" value="0">
+        <button class="btn-menos" style="background-color: red;" type="button" onclick="javascript: contadormenos('cantidad90');calculaentradas();">-</button>
+        </td>
+        </tr>
+        <tfoot>
+        <tr>
+        <td colspan="2">
+        </td>
+        <td class="text-left">
+        <br>
+        <h6 style="color: red;"><b>TOTAL: <span id='totalgeneral'>$ 0</span></b></h6>
+        </td>
+        </tr>
+        </tfoot>
+        </table>
+        </div>
+        
+        </form>
+    </div>
+    
 
     <div class="container py-5">
       <div class="row">
