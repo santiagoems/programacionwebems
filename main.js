@@ -83,7 +83,11 @@ function mensajepago(){
     }
 }
 function mensajecontacto(){
-    alert("Su mensaje fue recibido")
+    if(document.forms["contact-form"].name.value == "" || document.forms["contact-form"].surname.value == "" || document.forms["contact-form"].email.value == "" || document.forms["contact-form"].message.value == ""){
+        alert("ERROR")
+    }else{
+        alert("Su mensaje fue recibido")
+    }
 }
 
             window.onload = selector;
